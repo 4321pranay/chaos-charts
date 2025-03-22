@@ -68,7 +68,7 @@ spec:
       - apiGroups: ["litmuschaos.io"]
         resources: ["chaosengines", "chaosexperiments", "chaosresults"]
         verbs: ["create", "list", "get", "patch", "update", "delete"]
-    image: "litmuschaos.docker.scarf.sh/litmuschaos/go-runner:3.16.0"
+    image: "##UPDATE_REGISTRY##/litmuschaos/go-runner:3.16.0"
     imagePullPolicy: Always
     args:
       - -c
